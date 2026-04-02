@@ -24,7 +24,7 @@ TAKEN_MESSAGES = [f"{RED}{BOLD}TAKEN{RESET}"]
 AVAILABLE_MESSAGES = [f"{GREEN}{BOLD}AVAILABLE{RESET}"]
 
 # ================= DISCORD WEBHOOK =================
-DISCORD_WEBHOOK = "YOUR_WEBHOOK_HERE"
+DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1482907849456615566/vSCEElTR1PAkNFoAFFKJdhPYYppOBdXDFUa63DuumnUeG_aq4WgsB8VHqEPwnr_PqIs6"
 
 def send_webhook(name):
     if not DISCORD_WEBHOOK:
